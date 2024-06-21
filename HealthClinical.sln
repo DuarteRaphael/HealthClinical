@@ -5,6 +5,14 @@ VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthClinical.Services.Api", "HealthClinical.Services.Api\HealthClinical.Services.Api.csproj", "{6C971A55-54BC-41C0-8171-0E86CE59300A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{74A9898E-673F-494D-9810-28D6FFD5B475}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{0CEF03C8-63B6-4CB5-AB5B-FC04D036BC12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{6823BCD1-A9BB-469C-BCEC-A3283CFE4538}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 InfraStructure", "4 InfraStructure", "{723FC392-DC71-47A7-91E4-24F6AC374A73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C971A55-54BC-41C0-8171-0E86CE59300A} = {74A9898E-673F-494D-9810-28D6FFD5B475}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {955C7BA0-F5B8-443A-AADC-02FE3615215E}
