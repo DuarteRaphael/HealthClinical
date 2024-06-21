@@ -7,7 +7,7 @@ namespace HealthClinical.Services.Api.Controllers
     [ApiController]
     public class PacientesController : ControllerBase
     {
-        [HttpGet]
+        [HttpPost]
         public IActionResult Create()
         {
             return Ok();
@@ -22,8 +22,8 @@ namespace HealthClinical.Services.Api.Controllers
         {
             return Ok();
         }
-        [HttpGet("{page/limit}")]
-        public IActionResult GetAll(int page, int limit)
+        [HttpGet("{page}/{limit}")]
+        public IActionResult GetAll(Guid id)
         {
             return Ok();
         }
